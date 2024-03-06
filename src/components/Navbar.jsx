@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav className='relative h-[10.1vh] bg-white'>
        <img src={KoinXlogo} className='h-[70px] absolute left-[5%]'></img>
-        <div className='flex  justify-between px-6 w-2/4 absolute right-[10%] top-4 text-[3%vw] '>
+        <div className='flex  justify-between px-6 w-2/4 absolute left-[50%] right-[0%] top-4 text-[3%vw] '>
         <span className='font-bold py-1'>Crypto Taxes</span>
         <span className='font-bold py-1'>Free Tools</span>
         <span className='font-bold py-1'>Resource Center</span>

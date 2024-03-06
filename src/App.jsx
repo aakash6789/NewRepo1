@@ -3,6 +3,9 @@ import ChartComponent from './components/ChartComponent'
 import Navbar from './components/Navbar'
 import Chart from './components/Chart'
 import Performance from './components/Performance'
+import AboutBitcoin from './components/AboutBitcoin'
+import Tokenomics from './components/Tokenomics'
+import Team from './components/Team'
 function App() {
 
 
@@ -12,6 +15,9 @@ function App() {
     <ChartComponent/>
     {/* <Chart/>  */}
     <Performance/>
+    <AboutBitcoin/>
+    <Tokenomics/>
+    <Team/>
     </>
   )
 }
