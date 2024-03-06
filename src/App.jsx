@@ -1,13 +1,17 @@
-
-
 import './App.css'
-
+import ChartComponent from './components/ChartComponent'
+import Navbar from './components/Navbar'
+import Chart from './components/Chart'
+import Performance from './components/Performance'
 function App() {
 
 
   return (
     <>
-    Hi
+    <Navbar/>
+    <ChartComponent/>
+    {/* <Chart/>  */}
+    <Performance/>
     </>
   )
 }
